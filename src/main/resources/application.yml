@@ -1,0 +1,30 @@
+spring:
+  servlet:
+    multipart:
+      max-file-size: 5MB
+      max-request-size: 5MB
+  data:
+    mongodb:
+      uri: ${MONGODB_URL}
+
+application:
+  name: Online-food-ordering-app
+
+aws:
+  access:
+    key: ${AWS_ACCESS_KEY}
+  secret:
+    key: ${AWS_SECRET_KEY}
+  region: ap-south-1
+  bucket:
+    name: food-delivery-app-unicksbyte
+
+
+jwt:
+  secret:
+    key: ${JWT_SECRET_KEY}
+
+razorpay:
+  key: ${RAZORPAY_KEY}
+  secret: ${RAZORPAY_SECRET}
+
