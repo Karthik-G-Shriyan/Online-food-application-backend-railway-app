@@ -28,3 +28,5 @@ razorpay:
   key: ${RAZORPAY_KEY}
   secret: ${RAZORPAY_SECRET}
 
+server:
+  port: ${PORT:8080}
